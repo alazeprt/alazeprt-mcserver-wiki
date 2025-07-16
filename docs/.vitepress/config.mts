@@ -20,8 +20,22 @@ export default defineConfig({
           { text: '环境变量', link: '/basic-knowledge/environment-variables' },
           { text: '服务器', link: '/basic-knowledge/server' },
           { text: 'IP', link: '/basic-knowledge/ip' },
-          { text: '其它', link: '/basic-knowledge/others' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '其它', link: '/basic-knowledge/others' }
+        ]
+      },
+      {
+        text: '配置格式',
+        items: [
+          { text: 'YAML', link: '/config-format/yaml' },
+          { text: 'JSON', link: '/config-format/json' }
+        ]
+      },
+      {
+        text: '配置文件',
+        items: [
+          { text: 'server.properties', link: '/config-file/server.properties'},
+          { text: 'Bukkit & Spigot 相关', link: '/config-file/bukkit-and-spigot' },
+          { text: '类 Paper 服务端相关', link: '/config-file/paper-and-subcore' }
         ]
       }
     ],
