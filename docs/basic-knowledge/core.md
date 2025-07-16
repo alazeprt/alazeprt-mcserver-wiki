@@ -169,3 +169,38 @@ SpongeForge 与 SpongeVanilla 一样均是 Sponge 插件生态的服务端, 兼�
 - 插件兼容性: (Sponge插件) 8/(类Bukkit插件) 0
 - 版本支持: 8
 
+### Banner
+
+Banner 是一款 Fabric 混合端, 由 Mohist 的开发团队进行研发
+
+### Cardboard
+
+Cardboard 是一款 Fabric 模组, 用于提供 Bukkit & Spigot 插件的兼容性
+
+## 代理服务端
+
+代理服务端是用于建立群组服的服务端, 用于串联起各个服务器, 使玩家在各个服务器间无感传送
+
+### BungeeCord
+
+BungeeCord 是由 SpigotMC 开发团队开发的, 是群组服的开山鼻祖
+
+### Waterfall
+
+Waterfall 由 PaperMC 开发, 基于 BungeeCord, 旨在提升 BungeeCord 的性能, 现已停更
+
+### Velocity
+
+Velocity 是由 PaperMC 开发的一款全新高性能代理服务端, 支持多种模式 (包括 BungeeCord)
+
+## 服务端推荐
+
+- 1.8: PandaSpigot (PvP), SportPaper (生存服)
+- 1.12: Beast
+- 生电: Leaves > Paper > Purpur > Leaf
+- 服务器CPU核心多(12+): LightingLuminol > Luminol > Folia > Canvas > Leaf > Purpur > Paper
+- 性能: Leaf > Purpur > Paper 
+- 性能+稳定性: Purpur > Leaf > Paper
+- Forge混合端: CatServer > ArcLight > Mohist
+- Fabric混合端: Cardboard > Banner
+- 群组服: Velocity > Waterfall > BungeeCord
