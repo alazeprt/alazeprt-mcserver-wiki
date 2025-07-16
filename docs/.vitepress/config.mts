@@ -20,6 +20,7 @@ export default defineConfig({
           { text: '环境变量', link: '/basic-knowledge/environment-variables' },
           { text: '服务器', link: '/basic-knowledge/server' },
           { text: 'IP', link: '/basic-knowledge/ip' },
+          { text: '其它', link: '/basic-knowledge/others' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
