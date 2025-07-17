@@ -23,6 +23,8 @@
 
 Bukkit 是 Minecraft 插件服务端的开山鼻祖, 首次引入了插件概念
 
+下载链接 (需要使用 BuildTools.jar 自动编译): https://hub.spigotmc.org/jenkins/job/BuildTools/
+
 评分:
 - 性能: 1
 - 稳定性: 5
@@ -31,6 +33,8 @@ Bukkit 是 Minecraft 插件服务端的开山鼻祖, 首次引入了插件概念
 ### Spigot
 
 Spigot 基于 Bukkit 开发, 对 Bukkit 进行了进一步的改进, 同时也引入了群组服这一概念 (BungeeCord)
+
+下载链接 (需要使用 BuildTools.jar 自动编译): https://hub.spigotmc.org/jenkins/job/BuildTools/
 
 评分:
 - 性能: 3
@@ -43,6 +47,8 @@ Paper 原名为 PaperSpigot, 原基于 Spigot 开发, 加入了许多性能优�
 
 同时, 它的团队也研发出了注重性能的新款群组服 (Velocity)
 
+下载链接: https://papermc.io/downloads/all
+
 评分:
 - 性能: 7
 - 稳定性: 7
@@ -51,6 +57,8 @@ Paper 原名为 PaperSpigot, 原基于 Spigot 开发, 加入了许多性能优�
 ### Purpur
 
 Purpur 基于 Pufferfish (基于 Paper 开发的一个小众服务端) 开发, 再次加入了许多性能优化的选项
+
+下载链接: https://purpurmc.org/download/purpur (旧版本需要通过调用 [API](https://api.purpurmc.org/) 下载)
 
 评分:
 - 性能: 8
@@ -61,6 +69,8 @@ Purpur 基于 Pufferfish (基于 Paper 开发的一个小众服务端) 开发, �
 
 Leaves 基于 Paper 开发, 以生电为其功能亮点, 加入了许多对生电友好的配置项
 
+下载链接: https://leavesmc.org/downloads/all
+
 评分:
 - 性能: 6
 - 稳定性: 6
@@ -69,6 +79,8 @@ Leaves 基于 Paper 开发, 以生电为其功能亮点, 加入了许多对生�
 ### Leaf
 
 Leaf 基于 Gale (基于 Paper 开发的一个小众服务端) 开发, 以性能优化为主, 针对异步性能优化加入了许多配置项
+
+下载链接: https://www.leafmc.one/download
 
 评分:
 - 性能: 9
@@ -79,6 +91,8 @@ Leaf 基于 Gale (基于 Paper 开发的一个小众服务端) 开发, 以性能
 
 Canvas 基于 Paper 开发, 针对异步多世界路线进行开发
 
+下载链接: https://jenkins.canvasmc.io/job/Canvas/
+
 评分:
 - 性能: 9
 - 稳定性: 5
@@ -87,6 +101,8 @@ Canvas 基于 Paper 开发, 针对异步多世界路线进行开发
 ### SpongeVanilla
 
 SpongeVanilla 是另一个插件生态 (Sponge 插件, 与 Bukkit & Spigot & Paper 插件互不兼容) 的服务端, 性能一般
+
+下载链接: https://spongepowered.org/downloads/spongevanilla
 
 评分:
 - 性能: 5
@@ -97,10 +113,13 @@ SpongeVanilla 是另一个插件生态 (Sponge 插件, 与 Bukkit & Spigot & Pap
 
 :::warning 警告
 由于区块的线程不统一, 这一类服务端对生电与稳定性均不友好, 同时插件也需要特别作兼容才能支持
+:::
 
 ### Folia
 
 Folia 由 PaperMC 开发, 是多线程区块服务端的开山鼻祖
+
+下载链接: https://papermc.io/downloads/all?project=folia
 
 评分:
 - 性能: 7
@@ -111,6 +130,8 @@ Folia 由 PaperMC 开发, 是多线程区块服务端的开山鼻祖
 
 Luminol 基于 Folia 开发, 对于性能和生电均有优化
 
+下载链接: https://github.com/LuminolMC/Luminol/releases
+
 评分:
 - 性能: 8
 - 稳定性: 4
@@ -119,6 +140,8 @@ Luminol 基于 Folia 开发, 对于性能和生电均有优化
 ### LightingLuminol
 
 LightingLuminol 基于 Luminol 开发, 对插件的兼容性进行了优化
+
+下载链接: https://github.com/LuminolMC/LightingLuminol/releases
 
 评分:
 - 性能: 8
@@ -137,6 +160,8 @@ LightingLuminol 基于 Luminol 开发, 对插件的兼容性进行了优化
 
 CatServer 是一款 Forge 混合服务端, 在同类中对 Bukkit 和 Forge 模组的兼容性最好, 但是版本更新较慢
 
+下载链接: https://catmc.org/
+
 评分:
 - 模组兼容性: 9
 - 插件兼容性: 8
@@ -145,6 +170,8 @@ CatServer 是一款 Forge 混合服务端, 在同类中对 Bukkit 和 Forge 模�
 ### Mohist
 
 Mohist 是一款 Forge 混合服务端, 更新较快
+
+下载链接: https://www.mohistmc.cn/download/mohist
 
 评分:
 - 模组兼容性: 7
@@ -155,6 +182,8 @@ Mohist 是一款 Forge 混合服务端, 更新较快
 
 ArcLight 是一款新兴的 Forge & Fabric 混合服务端, 更新非常快
 
+下载链接: https://arclight.izzel.io/
+
 评分:
 - 模组兼容性: 8
 - 插件兼容性: 7
@@ -163,6 +192,8 @@ ArcLight 是一款新兴的 Forge & Fabric 混合服务端, 更新非常快
 ### SpongeForge
 
 SpongeForge 与 SpongeVanilla 一样均是 Sponge 插件生态的服务端, 兼容性较好, 但是不支持 Bukkit & Spigot & Paper 插件
+
+下载链接: https://spongepowered.org/downloads/spongeforge
 
 评分:
 - 模组兼容性: 9.5
@@ -173,9 +204,13 @@ SpongeForge 与 SpongeVanilla 一样均是 Sponge 插件生态的服务端, 兼�
 
 Banner 是一款 Fabric 混合端, 由 Mohist 的开发团队进行研发
 
+下载链接: (疑似删库, 无法从官方渠道下载)
+
 ### Cardboard
 
 Cardboard 是一款 Fabric 模组, 用于提供 Bukkit & Spigot 插件的兼容性
+
+下载链接: https://cardboardpowered.org/download/
 
 ## 代理服务端
 
@@ -185,13 +220,19 @@ Cardboard 是一款 Fabric 模组, 用于提供 Bukkit & Spigot 插件的兼容�
 
 BungeeCord 是由 SpigotMC 开发团队开发的, 是群组服的开山鼻祖
 
+下载链接: https://ci.md-5.net/job/BungeeCord/
+
 ### Waterfall
 
 Waterfall 由 PaperMC 开发, 基于 BungeeCord, 旨在提升 BungeeCord 的性能, 现已停更
 
+下载链接: https://papermc.io/downloads/all?project=waterfall
+
 ### Velocity
 
 Velocity 是由 PaperMC 开发的一款全新高性能代理服务端, 支持多种模式 (包括 BungeeCord)
+
+下载链接: https://papermc.io/downloads/all?project=velocity
 
 ## 服务端推荐
 
