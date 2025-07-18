@@ -61,7 +61,20 @@ export default defineConfig({
         items: [
           { text: '寻找并安装插件', link: '/prepare-plugin/looking-for-plugin' },
           { text: '常用插件介绍', link: '/prepare-plugin/common-plugin' },
-          { text: '配置插件', link: '/prepare-plugin/configuring-plugin' }
+          { text: '配置插件', link: '/prepare-plugin/configuring-plugin' },
+          { text: '权限管理',
+            items: [
+              { text: '基本概念', link: '/prepare-plugin/permission-management/basic-knowledge'},
+              { text: '常用命令', link: '/prepare-plugin/permission-management/common-command' }
+            ]
+          },
+          {
+            text: '基岩支持',
+            items: [
+              { text: '安装插件', link: '/prepare-plugin/bedrock-support/installing-plugin' },
+              { text: '配置插件', link: '/prepare-plugin/bedrock-support/configuring-plugin' }
+            ]
+          }
         ]
       },
       {

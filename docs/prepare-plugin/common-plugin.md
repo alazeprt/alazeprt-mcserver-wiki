@@ -64,6 +64,20 @@
 ### SunLight
 EssentialsX 和 CMI 的中和, 轻量且现代化, 功能丰富, 配置清晰
 
+## 跨版本插件
+
+### ViaVersion
+
+支持从高版本进入低版本服务器
+
+### ViaBackwards
+
+支持从低版本(1.8+)进入高版本服务器, 需要 `ViaVersion` 配合使用
+
+## ViaRewind
+
+支持从低版本(1.7+)进入高版本服务器, 需要 `ViaVersion`, `ViaBackwards` 配合使用
+
 ## 防熊插件
 
 ### CoreProtect
