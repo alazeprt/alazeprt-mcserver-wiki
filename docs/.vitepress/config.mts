@@ -12,7 +12,13 @@ export default defineConfig({
     ],
 
     sidebar: [
-      { text: '开始', link: '/welcome' },
+      { text: '开始',
+        link: '/welcome',
+        items: [
+          { text: '特别鸣谢', link: '/welcome/special-thanks' },
+          { text: '文档贡献', link: '/welcome/document-contribution' }
+        ]
+      },
       {
         text: '基本概念',
         items: [
@@ -49,6 +55,23 @@ export default defineConfig({
           { text: '配置服务器', link: '/launch-server/configuring-server'},
           { text: '连接到服务器', link: '/launch-server/connecting-to-server' }
         ]
+      },
+      {
+        text: '插件准备',
+        items: [
+          { text: '寻找并安装插件', link: '/prepare-plugin/looking-for-plugin' },
+          { text: '常用插件介绍', link: '/prepare-plugin/common-plugin' },
+          { text: '配置插件', link: '/prepare-plugin/configuring-plugin' }
+        ]
+      },
+      {
+        text: '服务器维护' // 性能分析, 报错分析, 面板搭建, 运营方略
+      },
+      {
+        text: '进阶内容' // 数据库, 面板, Linux / Docker 的使用, 机器人,
+      },
+      {
+        text: '插件开发'
       }
     ],
 
