@@ -282,7 +282,8 @@ Velocity 是由 PaperMC 开发的一款全新高性能代理服务端, 支持多
 
 - 1.8: PandaSpigot (PvP), SportPaper (生存服)
 - 1.12: Beast
-- 生电: Leaves > Paper > Purpur > Leaf   Folia系列 Lophine > Mint > Folia
+- Paper系生电: Leaves > Paper > Purpur > Leaf
+- Folia系生电：Lophine > Mint > Folia
 - 服务器CPU核心多(12+): Mint > LightingLuminol > Luminol > Lophine > Folia > Canvas > Leaf > Purpur > Paper
 - 性能: Leaf > Purpur > Paper 
 - 性能+稳定性: Purpur > Leaf > Paper
