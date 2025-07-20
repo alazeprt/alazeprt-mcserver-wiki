@@ -26,7 +26,8 @@ export default defineConfig({
           { text: '环境变量', link: '/basic-knowledge/environment-variables' },
           { text: '服务器', link: '/basic-knowledge/server' },
           { text: 'IP', link: '/basic-knowledge/ip' },
-          { text: '核心 & 服务端', link: '/basic-knowledge/core'},
+          { text: '核心 & Java服务端', link: '/basic-knowledge/core'},
+          { text: '加载器 & 基岩版服务端', link: '/basic-knowledge/core-be'},
           { text: '其它', link: '/basic-knowledge/others' }
         ]
       },
