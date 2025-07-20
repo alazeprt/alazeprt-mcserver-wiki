@@ -102,7 +102,19 @@ Canvas 基于 Paper 开发, 针对异步多世界路线进行开发（只支持J
 - 性能: 10＋
 - 稳定性: 4.5
 - 生电支持: 5
-- 版本适配速度: 较慢
+- 版本适配速度: 快
+
+### Akarin
+
+Akarin 是一款支持多线程的 Minecraft 服务端，来自 “新维度”，前身是 TorchSpigot 服务端。
+
+下载链接: https://www.yuque.com/wangshanzha/rainbow/mkt26vl39i2veyrb 
+
+评分:
+- 性能: 8.5
+- 稳定性: 6
+- 生电支持: 5
+- 版本适配速度: 已停更
 
 ### SpongeVanilla
 
