@@ -146,6 +146,28 @@ Folia 由 PaperMC 开发, 是多线程区块服务端的开山鼻祖
 - 生电支持: 1
 - 版本适配速度: 快
 
+### Mint
+Mint 基于 Folia，致力于提供更好的整体性能和原版机制
+
+下载链接: https://github.com/MenthaMC/Mint
+
+评分:
+- 性能: 8.5
+- 稳定性: 5
+- 生电支持: 7
+- 版本适配速度: 快
+
+### Lophine
+Lophine是Luminol的下游分支，旨在 Folia 上实现更多生电的内容以及更多的功能
+
+下载链接: https://github.com/LuminolMC/Lophine
+
+评分:
+- 性能: 7
+- 稳定性: 5
+- 生电支持: 8
+- 版本适配速度: 快
+
 ### Luminol
 
 Luminol 基于 Folia 开发, 对于性能和生电均有优化
@@ -260,8 +282,8 @@ Velocity 是由 PaperMC 开发的一款全新高性能代理服务端, 支持多
 
 - 1.8: PandaSpigot (PvP), SportPaper (生存服)
 - 1.12: Beast
-- 生电: Leaves > Paper > Purpur > Leaf
-- 服务器CPU核心多(12+): LightingLuminol > Luminol > Folia > Canvas > Leaf > Purpur > Paper
+- 生电: Leaves > Paper > Purpur > Leaf   Folia系列 Lophine > Mint > Folia
+- 服务器CPU核心多(12+): Mint > LightingLuminol > Luminol > Lophine > Folia > Canvas > Leaf > Purpur > Paper
 - 性能: Leaf > Purpur > Paper 
 - 性能+稳定性: Purpur > Leaf > Paper
 - Forge混合端: CatServer > ArcLight > Mohist
