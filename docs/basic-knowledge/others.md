@@ -42,6 +42,14 @@ java -jar server.jar
 - `-XmsnG`: JVM参数, 初始分配 n GB 内存
 - `--nogui`: 启动参数, 设置不开启 GUI 界面 (没用又占性能)
 
+## 实用工具
+- 支持超 16 款格式 可自定义渐变预设🎨 识别导入 CSS 渐变等 🖥️
+  https://mcg.tuanzi.ink/
+- 180 个线性渐变的免费集合 支持Css复制
+  https://webgradients.com/
+- Minecraft 服务器状态图生成器 https://motd.puddingkc.com/generate.html
+- MCSManager管理面板 https://www.mcsmanager.com/
+
 ## 命名空间
 
 用来指明和识别游戏中特定对象而又能避免潜在的歧义和冲突的一种方式(如两个模组都有物品a, 则A模组的物品为A:a, B模组的物品为B:a, 其中A与B均为命名空间, 这样就避免冲突了)
