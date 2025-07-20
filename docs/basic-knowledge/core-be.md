@@ -1,11 +1,16 @@
 # 基岩版核心 & 服务端
 
-      由于JAVA版那边百花齐放 各式各样的核心数不胜数 所以基岩版服务端核心这边便有点显得寥寥无几
+      基岩版服务端核心以轻量化、跨平台为特色，主要分为官方核心与第三方优化分支两类
 
-## BDS & PM & NUKKIT
-- BDS 是由官方提供的原版服务端核心 拥有原版所有特性 且自带效果较差的反作弊系统
-- PM 一款基于PHP的基岩版开服程序 纯净的PMMP服不具备完善的生存 其主要玩法依赖插件
-- Nukkit 核能驱动级MC基岩版服务端软件 分支极多 老牌插件社区 但貌似不太活跃了 
+## 官方核心      
+
+### BDS (Bedrock Dedicated Server)
+- **特点**：官方原版服务端，仅支持行为包 材质包 scriptAPi
+- **评分**：
+  - 性能：6.5
+  - 稳定性：7
+  - 生电支持：10
+- **下载链接**：https://www.minecraft.net/zh-hans/download/server/bedrock
 
 ###  BDS & LLBDS & Endstone
 | 项     | BDS   | LLBDS   | Endstone  |
@@ -20,7 +25,16 @@
 ##### 注意 以上均需要以BDS为基础 LL与Endstone均为插件加载器
 ##### 并且LLBDS在Linux环境下运行不佳 而Endstone无需考虑这个问题
 
+## 第三方优化核心
 
+### Nukkit (nk)
+​​**定位**​​：早期基岩版服务端代表，现生态趋于边缘化
 
+#### 主流分支核心
+| 核心名称       | 支持游戏版本 | 链接   |JAVA版本| 状态   |
+|----------------|--------------|---------|---------|---------|
+| NukkitX   |1.21.93 | https://www.minebbs.com/resources/nukkitx.32/|17＋| 活跃|
+| Nukkit-MOT(需自己构建)|1.21.93|https://github.com/MemoriesOfTime/Nukkit-MOT |17＋|活跃| 
+| PowerNukkitX|  1.21.93|https://github.com/PowerNukkitX/PowerNukkitX|17＋|活跃|
+| PetterM1Edition|1.21.93 | https://github.com/PetteriM1/NukkitPetteriM1Edition/|17＋|活跃| 
 
-未写完 太懒了喵~~~
