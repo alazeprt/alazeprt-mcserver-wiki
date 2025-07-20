@@ -94,7 +94,7 @@ Leaf 基于 Gale (基于 Paper 开发的一个小众服务端) 开发, 以性能
 
 ### Canvas
 
-Canvas 基于 Paper 开发, 针对异步多世界路线进行开发
+Canvas 基于 Paper 开发, 针对异步多世界路线进行开发（只支持Java22＋）
 
 下载链接: https://jenkins.canvasmc.io/job/Canvas/
 
