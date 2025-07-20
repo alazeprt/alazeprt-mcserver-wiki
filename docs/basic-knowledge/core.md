@@ -150,7 +150,7 @@ LightingLuminol 基于 Luminol 开发, 对插件的兼容性进行了优化
 
 ## 混合服务端
 
-接着介绍的是混合服务端, 这一类服务端在支持模组加载器 (ex. Forge, Fabric) 同时对插件进行了支持
+接着介绍的是混合服务端, 这一类服务端在支持模组加载器 (ex. Forge, Fabric, NeoForge) 同时对插件进行了支持
 
 :::warning 警告
 混合服务端的兼容性均一般
@@ -188,6 +188,17 @@ ArcLight 是一款新兴的 Forge & Fabric 混合服务端, 更新非常快
 - 模组兼容性: 8
 - 插件兼容性: 7
 - 版本支持: 8
+
+### Youer
+
+Youer 是一款兼容 NeoForge 的混合服务端
+
+下载链接: https://www.mohistmc.cn/download/youer
+
+评分:
+- 模组兼容性: 8
+- 插件兼容性: 暂时仅支持 Spigot Api 插件, 后续开发将支持 Paper Api 插件
+- 版本支持: 目前仅 1.21.1
 
 ### SpongeForge
 
