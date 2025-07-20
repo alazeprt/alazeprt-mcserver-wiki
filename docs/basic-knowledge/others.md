@@ -36,8 +36,8 @@ java -jar server.jar
 在 `java` 与 文件名 (此处为 `server.jar`) 之间的是 JVM 参数, 在文件名后的是传入的启动参数
 
 一些基本的启动脚本参数:
-- `-XmxnG`: JVM参数, 最大分配 n GB 内存
-- `-XmsnG`: JVM参数, 初始分配 n GB 内存
+- `-Xmx*G`: JVM参数, 最大分配 * GB 内存
+- `-Xms*G`: JVM参数, 初始分配 * GB 内存
 - `--nogui`: 启动参数, 设置不开启 GUI 界面 (没用又占性能)
 
 ## 命名空间
