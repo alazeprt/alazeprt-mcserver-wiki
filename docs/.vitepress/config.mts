@@ -5,7 +5,7 @@ export default defineConfig({
   description: "Minecraft开服教程",
   
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/草莓.ico' }],
     ['meta', { name: 'theme-color', content: '#42b983' }]
   ],
 
