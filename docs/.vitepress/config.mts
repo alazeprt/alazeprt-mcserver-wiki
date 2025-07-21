@@ -95,7 +95,8 @@ export default defineConfig({
       {
         text: '💻 插件开发(开发中)'
       }
-    ],
+    ]
+  },
 
   appearance: 'dark',
 
@@ -103,4 +104,4 @@ export default defineConfig({
     theme: 'material-theme-palenight',
     lineNumbers: true
   }
-}
+})
