@@ -14,8 +14,7 @@ export default defineConfig({
     
     nav: [
       { text: '🏠 首页', link: '/' },
-      { text: '📚 文档', link: '/welcome' },
-      { text: '💖 支持', link: '/support' }
+      { text: '📚 文档', link: '/welcome' }
     ],
 
     sidebar: [
@@ -43,7 +42,7 @@ export default defineConfig({
         items: [
           { text: '🔢 数据类型', link: '/config-format/data-type' },
           { text: '📄 YAML', link: '/config-format/yaml' },
-          { text: '🦚 JSON', link: '/config-format/json' }
+          { text: '{} JSON', link: '/config-format/json' }
         ]
       },
       {
@@ -98,7 +97,7 @@ export default defineConfig({
     ]
   },
 
-  appearance: 'dark',
+  appearance: true,
 
   markdown: {
     theme: 'material-theme-palenight',
