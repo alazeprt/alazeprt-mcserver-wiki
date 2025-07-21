@@ -4,15 +4,13 @@ export default defineConfig({
   title: "针对小白的开服教程",
   description: "Minecraft开服教程",
   
-  // 头部配置
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#42b983' }]
   ],
 
-  // 主题配置
   themeConfig: {
-    logo: '/minecraft-logo.png', // 放在public目录下
+    logo: '/minecraft-logo.png',
     
     nav: [
       { text: '🏠 首页', link: '/' },
@@ -45,7 +43,7 @@ export default defineConfig({
         items: [
           { text: '🔢 数据类型', link: '/config-format/data-type' },
           { text: '📄 YAML', link: '/config-format/yaml' },
-          { text: '{} JSON', link: '/config-format/json' }
+          { text: '🦚 JSON', link: '/config-format/json' }
         ]
       },
       {
@@ -99,11 +97,8 @@ export default defineConfig({
       }
     ],
 
-
-  // 外观切换
   appearance: 'dark',
 
-  // Markdown 配置
   markdown: {
     theme: 'material-theme-palenight',
     lineNumbers: true
