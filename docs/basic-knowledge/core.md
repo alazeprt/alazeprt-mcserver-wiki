@@ -7,6 +7,7 @@
 - 插件服务端 (**本教程重点介绍**)
 - Forge 服务端
 - Fabric 服务端
+- NeoForge 服务端
 - Sponge 类服务端
 
 以下是各种服务端的对比:
@@ -201,9 +202,9 @@ LightingLuminol 基于 Luminol 开发, 对插件的兼容性进行了优化
       在此借用某大佬B站的一句话
         要性能就选mint，要功能就选luminol，要生电就选lophine
 
-## 混合服务端
+# 混合服务端
 
-接着介绍的是混合服务端, 这一类服务端在支持模组加载器 (ex. Forge, Fabric) 同时对插件进行了支持
+接着介绍的是混合服务端, 这一类服务端在支持模组加载器 (ex. Forge Fabric NeoForge) 同时对插件进行了支持
 
 :::warning 警告
 混合服务端的兼容性均一般
@@ -220,6 +221,18 @@ CatServer 是一款 Forge 混合服务端, 在同类中对 Bukkit 和 Forge 模�
 - 插件兼容性: 8/10
 - 版本支持: 4/10
 - 版本适配速度: 较慢
+
+### Youer
+
+Youer 是一款兼容 NeoForge 的混合服务端， 由 Mohist 的开发团队进行开发， 可以理解为 NeoForge 版本的 Mohist
+
+下载链接： https://www.mohistmc.cn/download/youer
+
+评分:
+- 模组兼容性: 6/10
+- 插件兼容性： 暂仅支持 Spigot Api 插件， 后续开发将支持 Paper Api 插件
+- 版本支持: 目前仅 1.21.1
+- 版本适配速度: 慢
 
 ### Mohist
 
@@ -259,9 +272,10 @@ SpongeForge 与 SpongeVanilla 一样均是 Sponge 插件生态的服务端, 兼�
 
 ### Banner
 
-Banner 是一款 Fabric 混合端, 由 Mohist 的开发团队进行研发
+Banner 是一款 Fabric 混合端, 由 Mohist 的开发团队进行开发
 
-下载链接: (疑似删库, 无法从官方渠道下载)
+链接: https://github.com/wdog5734/Banner
+> 暂无下载渠道, 请自行构建
 
 ### Cardboard
 
