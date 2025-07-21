@@ -1,6 +1,6 @@
-# Alazeprt 的开服教程
+# 针对小白 的开服教程
 
-👏 欢迎来到 Alazeprt 的开服教程!
+👏 欢迎来到针对 小白服主 的开服教程!
 
 本教程针对高版本 Minecraft 插件服务器, 介绍了如何开启并配置一个 Minecraft 服务器, 同时还会介绍一下插件开发的相关知识
 
@@ -15,5 +15,4 @@
 
 ### 更多
 
-欢迎加入 Alazeprt 的 [QQ服务器交流群](https://qm.qq.com/q/jGROgRUszC)
-若对本教程有建议/意见, 欢迎在 [GitHub](https://github.com/alazeprt/mcserver-wiki) 提出 issue 或 pr (pull request)
+若对本教程有建议/意见, 欢迎在 [GitHub](https://github.com/XingZiNina/mcserver-wiki) 提出 issue 或 pr (pull request)
