@@ -40,7 +40,7 @@ export default defineConfig({
         items: [
           { text: '🔢 数据类型', link: '/config-format/data-type' },
           { text: '📄 YAML', link: '/config-format/yaml' },
-          { text: '{} JSON', link: '/config-format/json' }
+          { text: '😇 JSON', link: '/config-format/json' }
         ]
       },
       {
