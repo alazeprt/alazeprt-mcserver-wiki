@@ -10,8 +10,6 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: '/minecraft-logo.png',
-    
     nav: [
       { text: '🏠 首页', link: '/' },
       { text: '📚 文档', link: '/welcome' }
@@ -96,8 +94,6 @@ export default defineConfig({
       }
     ]
   },
-
-  appearance: true,
 
   markdown: {
     theme: 'material-theme-palenight',
