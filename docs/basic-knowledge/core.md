@@ -11,10 +11,6 @@
 
 以下是各种服务端的对比:
 
-:::info 信息
-以下的插件服务端的评分满分均为 10
-:::
-
 ## 插件服务端
 
 插件服务端支持插件的加载, 使游戏内容更加丰富 (虽然没有到 Mod 的程度)
@@ -26,9 +22,10 @@ Bukkit 是 Minecraft 插件服务端的开山鼻祖, 首次引入了插件概念
 下载链接 (需要使用 BuildTools.jar 自动编译): https://hub.spigotmc.org/jenkins/job/BuildTools/
 
 评分:
-- 性能: 1
-- 稳定性: 5
-- 生电支持: 6
+- 性能: 2/10
+- 稳定性: 5/10
+- 生电支持: 6/10
+> 开山鼻祖 老人物了
 
 ### Spigot
 
@@ -37,10 +34,11 @@ Spigot 基于 Bukkit 开发, 对 Bukkit 进行了进一步的改进, 同时也�
 下载链接 (需要使用 BuildTools.jar 自动编译): https://hub.spigotmc.org/jenkins/job/BuildTools/
 
 评分:
-- 性能: 3
-- 稳定性: 7.5
-- 生电支持: 7
+- 性能: 3/10
+- 稳定性: 7.5/10
+- 生电支持: 8/10
 - 版本适配速度: 较快
+> 同上 也是老人物一枚
 
 ### Paper
 
@@ -51,10 +49,11 @@ Paper 原名为 PaperSpigot, 原基于 Spigot 开发, 加入了许多性能优�
 下载链接: https://papermc.io/downloads/all
 
 评分:
-- 性能: 7
-- 稳定性: 7
-- 生电支持: 5.5
+- 性能: 7/10
+- 稳定性: 9/10
+- 生电支持: 5.5/10
 - 版本适配速度: 快
+> 企业级标准 稳定易用 社区插件多
 
 ### Purpur
 
@@ -63,10 +62,11 @@ Purpur 基于 Pufferfish (基于 Paper 开发的一个小众服务端) 开发, �
 下载链接: https://purpurmc.org/download/purpur (旧版本需要通过调用 [API](https://api.purpurmc.org/) 下载)
 
 评分:
-- 性能: 8
-- 稳定性: 6.5
-- 生电支持: 5
+- 性能: 8/10
+- 稳定性: 6.5/10
+- 生电支持: 5/10
 - 版本适配速度: 快
+> ~~分支复分支 分支何其多~~ 稳定耐用
 
 ### Leaves
 
@@ -75,10 +75,12 @@ Leaves 基于 Paper 开发, 以生电为其功能亮点, 加入了许多对生�
 下载链接: https://leavesmc.org/downloads/all
 
 评分:
-- 性能: 6
-- 稳定性: 6
-- 生电支持: 9
+- 性能: 6/10
+- 稳定性: 6/10
+- 生电支持: 9/10
 - 版本适配速度: 较慢
+> 轻生电Leaves
+> 重生电Fabric(模组端)
 
 ### Leaf
 
@@ -87,10 +89,11 @@ Leaf 基于 Gale (基于 Paper 开发的一个小众服务端) 开发, 以性能
 下载链接: https://www.leafmc.one/download
 
 评分:
-- 性能: 9
-- 稳定性: 6
-- 生电支持: 4.5
+- 性能: 9/10
+- 稳定性: 6/10
+- 生电支持: 4.5/10
 - 版本适配速度: 快
+> 异步运算 需在配置文件开启
 
 ### Canvas
 
@@ -99,10 +102,11 @@ Canvas 基于 Paper 开发, 针对异步多世界路线进行开发（只支持J
 下载链接: https://jenkins.canvasmc.io/job/Canvas/
 
 评分:
-- 性能: 10＋
-- 稳定性: 4.5
-- 生电支持: 5
+- 性能: 11/10
+- 稳定性: 4/10
+- 生电支持: 5/10
 - 版本适配速度: 快
+> 极致的优化 Bug较多 未来可期
 
 ### Akarin
 
@@ -111,10 +115,11 @@ Akarin 是一款支持多线程的 Minecraft 服务端，来自 “新维度”�
 下载链接: https://www.yuque.com/wangshanzha/rainbow/mkt26vl39i2veyrb 
 
 评分:
-- 性能: 8.5
-- 稳定性: 6
-- 生电支持: 5
+- 性能: 8.5/10
+- 稳定性: 6/10
+- 生电支持: 5/10
 - 版本适配速度: 已停更
+> ~~还有人记得他吗?~~
 
 ### SpongeVanilla
 
@@ -123,28 +128,27 @@ SpongeVanilla 是另一个插件生态 (Sponge 插件, 与 Bukkit & Spigot & Pap
 下载链接: https://spongepowered.org/downloads/spongevanilla
 
 评分:
-- 性能: 5
-- 稳定性: 8
-- 生电支持: 6.5
+- 性能: 5/10
+- 稳定性: 8/10
+- 生电支持: 6.5/10
 - 版本适配速度: 快
 
-接下来介绍的是Folia类服务端, 这一类服务端均将区块放到多个线程, 有效提升了线程较多处理器的利用率
+# Folia系服务端
 
-:::warning 警告
-由于区块的线程不统一, 这一类服务端对生电与稳定性均不友好, 同时插件也需要特别作兼容才能支持
-:::
+接下来介绍的是Folia类服务端, 这一类服务端均将区块放到多个线程, 有效提升了线程较多处理器的利用率
+> 由于区块的线程不统一, 一部分核心对生电不友好，各别核心还原了特性，但插件生态仍不如Paper 适合想开**类原版多人**的服主
+
 
 ### Folia
-
-Folia 由 PaperMC 开发, 是多线程区块服务端的开山鼻祖
 
 下载链接: https://papermc.io/downloads/all?project=folia
 
 评分:
-- 性能: 7
-- 稳定性: 3.5
-- 生电支持: 1
+- 性能: 7/10
+- 稳定性: 3.5/10
+- 生电支持: 1/10
 - 版本适配速度: 快
+> ~~传统 传统 还是他n的传统~~
 
 ### Mint
 Mint 基于 Folia，致力于提供更好的整体性能和原版机制
@@ -152,10 +156,11 @@ Mint 基于 Folia，致力于提供更好的整体性能和原版机制
 下载链接: https://github.com/MenthaMC/Mint
 
 评分:
-- 性能: 8.5
-- 稳定性: 5
-- 生电支持: 7
+- 性能: 8.5/10
+- 稳定性: 6/10
+- 生电支持: 7/10
 - 版本适配速度: 快
+> 明日新星 国人团队发力了
 
 ### Lophine
 Lophine是Luminol的下游分支，旨在 Folia 上实现更多生电的内容以及更多的功能
@@ -163,10 +168,11 @@ Lophine是Luminol的下游分支，旨在 Folia 上实现更多生电的内容�
 下载链接: https://github.com/LuminolMC/Lophine
 
 评分:
-- 性能: 7
-- 稳定性: 5
-- 生电支持: 8
+- 性能: 8/10
+- 稳定性: 6/10
+- 生电支持: 8/10
 - 版本适配速度: 快
+> 明日新星 国人团队发力了
 
 ### Luminol
 
@@ -175,9 +181,9 @@ Luminol 基于 Folia 开发, 对于性能和生电均有优化
 下载链接: https://github.com/LuminolMC/Luminol/releases
 
 评分:
-- 性能: 8
-- 稳定性: 4
-- 生电支持: 3
+- 性能: 8/10
+- 稳定性: 4/10
+- 生电支持: 3/10
 - 版本适配速度: 快
 
 ### LightingLuminol
@@ -187,9 +193,9 @@ LightingLuminol 基于 Luminol 开发, 对插件的兼容性进行了优化
 下载链接: https://github.com/LuminolMC/LightingLuminol/releases
 
 评分:
-- 性能: 8
-- 稳定性: 4.5
-- 生电支持: 3
+- 性能: 8/10
+- 稳定性: 4.5/10
+- 生电支持: 3/10
 - 版本适配速度: 快
 
       在此借用某大佬B站的一句话
@@ -205,36 +211,39 @@ LightingLuminol 基于 Luminol 开发, 对插件的兼容性进行了优化
 
 ### CatServer
 
-CatServer 是一款 Forge 混合服务端, 在同类中对 Bukkit 和 Forge 模组的兼容性最好, 但是版本更新较慢
+CatServer 是一款 Forge 混合服务端, 在同类中对 Bukkit 和 Forge 模组的兼容性最好
 
 下载链接: https://catmc.org/
 
 评分:
-- 模组兼容性: 9
-- 插件兼容性: 8
-- 版本支持: 4
+- 模组兼容性: 9/10
+- 插件兼容性: 8/10
+- 版本支持: 4/10
+- 版本适配速度: 较慢
 
 ### Mohist
 
-Mohist 是一款 Forge 混合服务端, 更新较快
+Mohist 是一款 Forge 混合服务端, 更新
 
 下载链接: https://www.mohistmc.cn/download/mohist
 
 评分:
-- 模组兼容性: 7
-- 插件兼容性: 5
-- 版本支持: 6
+- 模组兼容性: 7/10
+- 插件兼容性: 5/10
+- 版本支持: 6/10
+- 版本适配速度: 较快
 
 ### ArcLight
 
-ArcLight 是一款新兴的 Forge & Fabric 混合服务端, 更新非常快
+ArcLight 是一款新兴的 Forge & Fabric 混合服务端
 
 下载链接: https://arclight.izzel.io/
 
 评分:
-- 模组兼容性: 8
-- 插件兼容性: 7
-- 版本支持: 8
+- 模组兼容性: 8/10
+- 插件兼容性: 6/10
+- 版本支持: 8/10
+- 版本适配速度: 快
 
 ### SpongeForge
 
@@ -243,9 +252,10 @@ SpongeForge 与 SpongeVanilla 一样均是 Sponge 插件生态的服务端, 兼�
 下载链接: https://spongepowered.org/downloads/spongeforge
 
 评分:
-- 模组兼容性: 9.5
-- 插件兼容性: (Sponge插件) 8/(类Bukkit插件) 0
-- 版本支持: 8
+- 模组兼容性: 9.5/10
+- 插件兼容性: (Sponge插件) 8/(类Bukkit插件) 0/10
+- 版本支持: 8/10
+- 版本适配速度: 快
 
 ### Banner
 
