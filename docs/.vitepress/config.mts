@@ -103,4 +103,4 @@ export default defineConfig({
     theme: 'material-theme-palenight',
     lineNumbers: true
   }
-})
+}
