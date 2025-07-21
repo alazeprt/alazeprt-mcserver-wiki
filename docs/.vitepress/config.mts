@@ -1,34 +1,31 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "Alazeprt的开服教程",
-  description: "由Alazeprt撰写的Minecraft Java版开服教程",
+  title: "针对小白的开服教程",
+  description: "Minecraft开服教程",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '首页', link: '/' },
-      { text: '开服教程', link: '/markdown-examples' },
-      { text: '插件开发教程', link: '/plugin-development' }
+      { text: '首页', link: '/' }
     ],
 
     sidebar: [
       { text: '开始',
         link: '/welcome',
         items: [
-          { text: '特别鸣谢', link: '/special-thanks' },
-          { text: '文档贡献', link: '/document-contribution' }
+          { text: '特别鸣谢', link: '/special-thanks' }
         ]
       },
       {
         text: '基本概念',
         items: [
-          { text: 'Java', link: '/basic-knowledge/java' },
-          { text: '环境变量', link: '/basic-knowledge/environment-variables' },
-          { text: '服务器', link: '/basic-knowledge/server' },
-          { text: 'IP', link: '/basic-knowledge/ip' },
-          { text: '核心 & Java服务端', link: '/basic-knowledge/core'},
-          { text: '加载器 & 基岩版服务端', link: '/basic-knowledge/core-be'},
-          { text: '其它', link: '/basic-knowledge/others' }
+          { text: 'Java☕', link: '/basic-knowledge/java' },
+          { text: '环境变量🌳', link: '/basic-knowledge/environment-variables' },
+          { text: '选择服务器💰', link: '/basic-knowledge/server' },
+          { text: 'IP知识🫐', link: '/basic-knowledge/ip' },
+          { text: 'Java服务器核心🍀', link: '/basic-knowledge/core'},
+          { text: '基岩版服务器加载器🧪', link: '/basic-knowledge/core-be'},
+          { text: '其它🪄', link: '/basic-knowledge/others' }
         ]
       },
       {
@@ -79,18 +76,18 @@ export default defineConfig({
         ]
       },
       {
-        text: '服务器维护' // 性能分析, 报错分析, 面板搭建, 运营方略
+        text: '服务器维护(暂未开发)' // 性能分析, 报错分析, 面板搭建, 运营方略
       },
       {
-        text: '进阶内容' // 数据库, 面板, Linux / Docker 的使用, 机器人,
+        text: '进阶内容(暂未开发)' // 数据库, 面板, Linux / Docker 的使用, 机器人,
       },
       {
-        text: '插件开发'
+        text: '插件开发(暂未开发)'
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/alazeprt/mcserver-wiki' }
+      { icon: 'github', link: 'https://github.com/XingZiNina/mcserver-wiki' }
     ]
   }
 })
