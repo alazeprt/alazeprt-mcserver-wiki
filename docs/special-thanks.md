@@ -9,4 +9,4 @@
 
 
 # 本站点由XingZi_Nina负责
-> 若有相关问题 请提交相关Pr
+## 若对本教程有建议/意见, 欢迎在 [GitHub](https://github.com/XingZiNina/mcserver-wiki) 提出 Pr(pull request)
