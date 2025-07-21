@@ -61,7 +61,7 @@
 支持从低版本(1.8+)进入高版本服务器, 需要 `ViaVersion` 配合使用
 下载链接: https://hangar.papermc.io/ViaVersion/ViaBackwards
 
-## ViaRewind
+### ViaRewind
 
 支持从低版本(1.7+)进入高版本服务器, 需要 `ViaVersion`, `ViaBackwards` 配合使用
 下载链接: https://hangar.papermc.io/ViaVersion/ViaRewind
@@ -76,6 +76,24 @@
 ### eBackup
 一款定时备份插件, 支持将备份上传到远程服务器, 推荐使用
 下载链接: https://www.spigotmc.org/resources/ebackup-simple-and-reliable-backups-for-your-server-supports-ftp-sftp.69917/
+
+## 反作弊插件
+
+### Matrix
+付费反作弊 效果不错  基岩版可绕过 推荐搭配Theimis/Grim使用
+下载链接：https://matrix.rip/
+
+### Grim
+完全异步多线程 优秀先进的反作弊 基岩版可绕过
+下载链接：https://grim.ac/
+
+### Theims
+注重效率与简单性 强力且有效 但误报很严重 完全检测基岩版
+下载链接：https://www.spigotmc.org/resources/themis-anti-cheat-1-17-1-21-bedrock-support-paper-compatibility-free-optimized.90766/
+
+### Boar
+最接近BDS原生反作弊 完全检测基岩版
+下载链接：https://modrinth.com/plugin/boar/
 
 ## 聊天插件
 
