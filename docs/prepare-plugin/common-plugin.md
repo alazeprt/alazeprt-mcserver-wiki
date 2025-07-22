@@ -27,6 +27,10 @@
 一款老牌登录插件, 功能强大, 推荐使用
 下载链接: https://modrinth.com/plugin/authmereloaded
 
+### FastLogin
+正如他的名字一样 Fast！Fast！！Fast！！！
+下载链接: https://www.spigotmc.org/resources/fastlogin.14153/
+
 ## 实用插件
 
 ### LuckPerms
