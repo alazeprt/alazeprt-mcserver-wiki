@@ -1,0 +1,42 @@
+:root {
+  --vp-c-brand-1: #fad0c4;
+  --vp-c-brand-3: #a4b9fa;
+}
+
+:root {
+  --vp-custom-block-tip-bg: var(--vp-c-green-soft);
+}
+
+.custom-block.tip {
+  border-color: var(--vp-c-green-2);
+}
+
+.custom-block.warning {
+  border-color: var(--vp-c-yellow-2);
+}
+
+.custom-block.danger {
+  border-color: var(--vp-c-red-2);
+}
+
+.dark {
+  --vp-c-brand-1: #fad0c4;
+  --vp-c-brand-3: #a4b9fa;
+}
+
+:root {
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #fccb90,
+    #d57eeb
+  );
+
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #6e9eec 50%,
+    #c2e9fb 50%
+  );
+  --vp-home-hero-image-filter: blur(40px);
+}
