@@ -36,6 +36,7 @@ export default defineConfig({
           { text: '🌳 环境变量', link: '/basic-knowledge/environment-variables' },
           { text: '💰 选择服务器', link: '/basic-knowledge/server' },
           { text: '🌐 IP知识', link: '/basic-knowledge/ip' },
+          { text: '🌏 关于世界', link: '/basic-knowledge/world' },
           { text: '🍀 Java服务器核心', link: '/basic-knowledge/core'},
           { text: '🧪 基岩版服务器加载器', link: '/basic-knowledge/core-be'},
           { text: '🪄 其它', link: '/basic-knowledge/others' }
