@@ -6,6 +6,12 @@ export default defineConfig({
   
   head: [
     ['link', { rel: 'icon', href: '/布丁.ico' }],
+    ['script', {}, `
+      (function() {
+        localStorage.setItem('vitepress-theme-appearance', 'dark');
+        document.documentElement.classList.add('dark');
+      })()
+    `],
     ['meta', { name: 'theme-color', content: '#42b983' }]
   ],
 
