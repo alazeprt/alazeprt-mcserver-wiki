@@ -21,12 +21,12 @@
 
 2. **安装 VitePress**
    ```bash
-   npm add -D vitepress
+   pnpm add -D vitepress -w
    ```
 
 3. **安装项目依赖**
    ```bash
-   pnpm add vue
+   pnpm add vue -w
    pnpm add -D unocss busuanzi.pure.js canvas-confetti vite -w
    pnpm add -D @unocss/preset-icons @iconify-json/mdi -w
    ```
