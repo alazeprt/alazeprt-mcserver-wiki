@@ -78,10 +78,18 @@ export default defineConfig({
         ]
       },
       {
-        text: '服务器维护' // 性能分析, 报错分析, 面板搭建, 运营方略
+        text: '服务器维护',
+        items: [
+          { text: 'JVM 优化', link: '/server-maintenance/jvm-optimization' },
+          { text: '报错分析', link: '/server-maintenance/error-analysis' },
+          { text: '性能分析', link: '/server-maintenance/performance-analysis' },
+          { text: '面板搭建', link: '/server-maintenance/panel-building' },
+          { text: '反作弊', link: '/server-maintenance/anticheat' },
+          { text: '安全防御', link: '/server-maintenance/security-defense' }
+        ]
       },
       {
-        text: '进阶内容' // 数据库, 面板, Linux / Docker 的使用, 机器人,
+        text: '进阶内容' // 数据库, 面板, Linux / Docker 的使用, 机器人, Minecraft 网络原理, Java 内存机制, 内网穿透
       },
       {
         text: '插件开发'

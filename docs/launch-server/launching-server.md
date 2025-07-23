@@ -76,6 +76,7 @@ cd ~/server
 
 在初期启动插件服务端时, 你常常会看到以下消息:
 
+
 ```log
 // ...
 [12:52:48 WARN]: Failed to load eula.txt
