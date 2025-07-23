@@ -3,6 +3,7 @@
 layout: home
 
 hero:
+  image: ./java.png
   name: "Minecraft 开服教程"
   tagline: 由alazeprt撰写的Minecraft Java版开服教程
   actions:
