@@ -2,22 +2,7 @@
 
 ## 安装 Java
 
-Minecraft Java版的服务器需要安装 Java 来运行, 相信大家面对眼花缭乱的众多的 Java 发行版感到困惑而不知道选哪个, 接着让我们比较一下各个发行版:
-
-:::info 信息
-以下比较的分数满分均为10分
-:::
-
-| 发行版                                                                  | 兼容性 | 稳定性 | 性能  | 推荐指数 | 推荐版本 (越前面的越推荐) | 备注          |
-|----------------------------------------------------------------------|-----|-----|-----|------|----------------|-------------|
-| [OpenJDK](https://jdk.java.net/)                                     | 10  | 9   | 4   | 5    | 所有             |             |
-| [Azul Zulu](https://www.azul.com/downloads/#zulu)                    | 9   | 8   | 7   | 7    | 8, 所有          |             |
-| [Azul Zing](https://www.azul.com/downloads/#prime)                   | 3.5 | 6   | 9.5 | 6    | 21, 17         | 需要申请        |
-| [GraalVM EE](https://www.graalvm.org/downloads/#)                    | 7   | 7   | 9   | 9    | 21, 17         |             |
-| [OpenJ9](https://github.com/eclipse-openj9/openj9)                   | 4.5 | 6.5 | 8   | 6.5  | 21, 17         | 需要自行编译      |
-| [Amazon Corretto](https://aws.amazon.com/cn/corretto/)               | 9   | 9   | 8   | 8.5  | 21, 17         |             |
-| [Oracle JDK](https://www.oracle.com/cn/java/technologies/downloads/) | 9   | 9   | 7.5 | 6.5  | 21, 17         | 部分版本需要注册账号  |
-| [Alibaba Dragonwell](https://dragonwell-jdk.io/#/index)              | 8   | 8   | 8   | 9    | 8              |             |
+你可以在 [Java](../basic-knowledge/java.md) 找到各个 Java 发行版, 按需选择即可
 
 :::tip 提示
 你可点击发行版进入下载页面, 选择适合自己操作系统和系统架构的版本下载
