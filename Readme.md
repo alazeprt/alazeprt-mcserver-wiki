@@ -15,7 +15,7 @@
 
 1. **克隆项目仓库**
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/XingZiNina/Eazy-wiki-mc.git
    cd your-repo
    ```
 
