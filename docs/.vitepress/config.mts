@@ -15,8 +15,8 @@ export default defineConfig({
       { text: '开始',
         link: '/welcome',
         items: [
-          { text: '特别鸣谢', link: '/welcome/special-thanks' },
-          { text: '文档贡献', link: '/welcome/document-contribution' }
+          { text: '特别鸣谢', link: '/special-thanks' },
+          { text: '文档贡献', link: '/document-contribution' }
         ]
       },
       {
