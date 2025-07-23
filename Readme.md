@@ -6,10 +6,8 @@
 ## 🚀 快速开始
 
 ### 先决条件
-在开始之前，请确保已安装以下工具：
-- [Node.js](https://nodejs.org/) (v18.0 或更高版本)
-- [npm](https://www.npmjs.com/) (v9.0 或更高版本)
-- [pnpm](https://pnpm.io/) (v8.0 或更高版本)
+在开始之前，请确保已安装并且配好环境变量：
+- [Node.js](https://nodejs.org/) 
 
 ### 安装步骤
 
@@ -19,35 +17,26 @@
    cd your-repo
    ```
 
-2. **安装 VitePress**
+2. **安装项目依赖**
    ```bash
+   npm install -g pnpm
    pnpm add -D vitepress -w
-   ```
-
-3. **安装项目依赖**
-   ```bash
    pnpm add vue -w
-   pnpm add -D unocss busuanzi.pure.js canvas-confetti vite -w
-   pnpm add -D @unocss/preset-icons @iconify-json/mdi -w
-   ```
-
-4. **安装所有依赖**
-   ```bash
+   pnpm add -D canvas-confetti -w
+   pnpm add -D vite -w
+   pnpm add -D busuanzi.pure.js -w
+   pnpm add -D unocss -w
+   pnpm add -D @iconify-json/mdi -w
+   pnpm add -D @unocss/preset-icons -w
    pnpm install
    ```
 
 ## 🛠️ 本地开发与构建
 
-### 启动开发服务器
-```bash
-pnpm run docs:dev
-```
-
 ### 构建生产版本
 ```bash
 pnpm run docs:build
 ```
-构建完成后，产物将生成在 `./.vitepress/dist` 目录
 
 ### 预览生产构建
 ```bash
