@@ -27,8 +27,8 @@
 3. **安装项目依赖**
    ```bash
    pnpm add vue
-   pnpm add -D unocss busuanzi.pure.js canvas-confetti vite
-   pnpm add -D @unocss/preset-icons @iconify-json/mdi
+   pnpm add -D unocss busuanzi.pure.js canvas-confetti vite -w
+   pnpm add -D @unocss/preset-icons @iconify-json/mdi -w
    ```
 
 4. **安装所有依赖**
@@ -54,17 +54,5 @@ pnpm run docs:build
 pnpm run docs:preview
 ```
 访问 `http://localhost:4173` 预览生产环境效果
-
-## 🌐 网站部署（使用宝塔面板）
-
-### 第一步：准备构建产物
-
-- 在Releases中下载自动构建好的
-
-### 第二步：上传文件到服务器
-1. 登录宝塔面板
-2. 进入网站管理
-3. 文件解压放在根目录
-4. 开启网站
 
 # 恭喜你成功开启了分站
