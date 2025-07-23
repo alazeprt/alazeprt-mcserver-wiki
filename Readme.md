@@ -56,3 +56,5 @@ pnpm run docs:preview
 访问 `http://localhost:4173` 预览生产环境效果
 
 # 恭喜你成功开启了分站
+[官方文档参考](https://vitepress.dev/zh/guide/deploy)
+[相关文档参考](https://doc.theojs.cn/notes/vitepress/aapanel-deployment)
