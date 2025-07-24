@@ -197,8 +197,8 @@ Youer 是一款兼容 NeoForge 的混合服务端, 由 Mohist 的开发团队进
 
 评分:
 - 模组兼容性: 8
-- 插件兼容性: 暂仅支持 Spigot Api 插件, 后续开发将支持 Paper Api 插件
-- 版本支持: 目前仅 1.21.1
+- 插件兼容性: 5
+- 版本支持: 2
 
 ### SpongeForge
 
@@ -215,8 +215,7 @@ SpongeForge 与 SpongeVanilla 一样均是 Sponge 插件生态的服务端, 兼�
 
 Banner 是一款 Fabric 混合端, 由 Mohist 的开发团队进行开发
 
-链接: https://github.com/wdog5734/Banner
-- 暂无下载渠道, 请自行构建
+下载链接 (需要自行构建): https://github.com/wdog5734/Banner
 
 ### Cardboard
 
@@ -253,7 +252,7 @@ Velocity 是由 PaperMC 开发的一款全新高性能代理服务端, 支持多
 - 生电: Leaves > Leaf > Purpur > Paper
 - 服务器CPU核心多(12+): LightingLuminol > Luminol > Folia > Canvas > Leaf > Purpur > Paper
 - 性能: Leaf > Purpur > Paper 
-- 性能 > 稳定性: Leaf > Purpur > Paper
+- 性能 + 稳定性: Purpur > Leaf > Paper
 - Forge混合端: CatServer > ArcLight > Mohist
 - Fabric混合端: Cardboard > Banner
 - 群组服: Velocity > Waterfall > BungeeCord
