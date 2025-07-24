@@ -15,11 +15,7 @@ export default defineConfig({
 
     sidebar: [
       { text: '开始',
-        link: '/welcome',
-        items: [
-          { text: '特别鸣谢', link: '/special-thanks' },
-          { text: '文档贡献', link: '/document-contribution' }
-        ]
+        link: '/welcome'
       },
       {
         text: '基本概念',
