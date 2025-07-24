@@ -3,6 +3,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Alazeprt的开服教程",
   description: "由Alazeprt撰写的Minecraft Java版开服教程",
+  lang: 'zh-CN',
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -99,5 +101,16 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/alazeprt/mcserver-wiki' }
     ]
+  },
+  //markdown配置
+  markdown: {
+    // 组件插入h1标题下
+    config: (md) => {
+      md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
+        let htmlResult = slf.renderToken(tokens, idx, options);
+        if (tokens[idx].tag === 'h1') htmlResult += `<ArticleMetadata />`;
+        return htmlResult;
+      }
+    }
   }
 })

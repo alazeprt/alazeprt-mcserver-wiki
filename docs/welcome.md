@@ -1,3 +1,12 @@
+---
+title: 开服教程
+description: 介绍如何开启并配置一个 Minecraft 服务器
+properties:
+  - name: 'wordsCount'
+    value: 1000
+---
+
+
 # Alazeprt 的开服教程
 
 👏 欢迎来到 Alazeprt 的开服教程!
@@ -16,3 +25,4 @@
 
 欢迎加入 Alazeprt 的 [QQ服务器交流群](https://qm.qq.com/q/jGROgRUszC)
 若对本教程有建议/意见, 欢迎在 [GitHub](https://github.com/alazeprt/mcserver-wiki) 提出 issue 或 pr (pull request)
+

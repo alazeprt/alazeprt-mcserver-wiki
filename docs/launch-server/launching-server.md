@@ -6,8 +6,11 @@
 
 :::tip 提示
 你可点击发行版进入下载页面, 选择适合自己操作系统和系统架构的版本下载
+
 若是 Windows 用户, 推荐下载 `.msi` 安装包后点击安装 (记得在可选功能勾选 `Add to PATH`) 
+
 若是使用 Debian 包管理 (apt) 的系统的用户, 若有推荐下载 `.deb` 安装包后使用指令 `sudo apt install ./filename.deb` 安装
+
 若均不是, 请下载 `.zip` 或 `.tar.gz` 压缩包后手动安装
 :::
 

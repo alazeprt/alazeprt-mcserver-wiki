@@ -1,4 +1,4 @@
-## 文档贡献
+# 文档贡献
 
 欢迎你为文档作贡献, 你可以在 [GitHub](https://github.com/alazeprt/mcserver-wiki/fork) 中 fork 本仓库, 在修改后向本项目提出 pr (pull requests)
 
