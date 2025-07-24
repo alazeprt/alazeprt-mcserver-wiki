@@ -3,6 +3,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Alazeprt的开服教程",
   description: "由Alazeprt撰写的Minecraft Java版开服教程",
+  lang: 'zh-CN',
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -13,11 +15,7 @@ export default defineConfig({
 
     sidebar: [
       { text: '开始',
-        link: '/welcome',
-        items: [
-          { text: '特别鸣谢', link: '/special-thanks' },
-          { text: '文档贡献', link: '/document-contribution' }
-        ]
+        link: '/welcome'
       },
       {
         text: '基本概念',
@@ -78,10 +76,18 @@ export default defineConfig({
         ]
       },
       {
-        text: '服务器维护' // 性能分析, 报错分析, 面板搭建, 运营方略
+        text: '服务器维护',
+        items: [
+          { text: 'JVM 优化', link: '/server-maintenance/jvm-optimization' },
+          { text: '报错分析', link: '/server-maintenance/error-analysis' },
+          { text: '性能分析', link: '/server-maintenance/performance-analysis' },
+          { text: '面板搭建', link: '/server-maintenance/panel-building' },
+          { text: '反作弊', link: '/server-maintenance/anticheat' },
+          { text: '安全防御', link: '/server-maintenance/security-defense' }
+        ]
       },
       {
-        text: '进阶内容' // 数据库, 面板, Linux / Docker 的使用, 机器人,
+        text: '进阶内容' // 数据库, 面板, Linux / Docker 的使用, 机器人, Minecraft 网络原理, Java 内存机制, 内网穿透
       },
       {
         text: '插件开发'
@@ -91,5 +97,16 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/alazeprt/mcserver-wiki' }
     ]
+  },
+  //markdown配置
+  markdown: {
+    // 组件插入h1标题下
+    config: (md) => {
+      md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
+        let htmlResult = slf.renderToken(tokens, idx, options);
+        if (tokens[idx].tag === 'h1') htmlResult += `<ArticleMetadata />`;
+        return htmlResult;
+      }
+    }
   }
 })

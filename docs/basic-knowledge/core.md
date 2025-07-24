@@ -1,3 +1,14 @@
+---
+pageClass: 'nolebase'
+properties:
+  - key: 'date'
+    value: '2023-10-01'
+    type: 'date'
+  - key: 'category'
+    value: '教程'
+  # 添加其他属性...
+---
+
 # 核心 & 服务端
 
 服务端 (也称核心) 指的是运行服务器的软件
